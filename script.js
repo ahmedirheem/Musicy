@@ -8,91 +8,91 @@ playIcons = document.querySelectorAll('.play-menu-song')
 const songs = [
     {
         id: '1',
-        poster: './images/1.jpg',
+        poster: './1.jpg',
         songInfo: `<h4>On My Way</h4>
         <span>Alan Walker</span>`
     },
     {
         id: '2',
-        poster: './images/2.jpg',
+        poster: './2.jpg',
         songInfo: `<h4>Alan Walker-Fade</h4>
         <span>Alan Walker</span>`
     },
     {
         id: '3',
-        poster: './images/3.jpg',
+        poster: './3.jpg',
         songInfo: `<h4>Cartoon - On & On</h4>
         <span>Daniel Levi</span>`
     },
     {
         id: '4',
-        poster: './images/4.jpg',
+        poster: './4.jpg',
         songInfo: `<h4>Warriyo - Mortals</h4>
         <span>Mortals</span>`
     },
     {
         id: '5',
-        poster: './images/5.jpg',
+        poster: './5.jpg',
         songInfo: `<h4>Ertugrul Gazi</h4>
         <span>Ertugrul</span>`
     },
     {
         id: '6',
-        poster: './images/6.jpg',
+        poster: './6.jpg',
         songInfo: `<h4>Electronic Music</h4>
         <span>Electro</span>`
     },
     {
         id: '7',
-        poster: './images/7.jpg',
+        poster: './7.jpg',
         songInfo: `<h4>Agar Tum Sath Ho</h4>
         <span>Tamashaa</span>`
     },
     {
         id: '8',
-        poster: './images/8.jpg',
+        poster: './8.jpg',
         songInfo: `<h4>Suna Hai</h4>
         <span>Neha Kakker</span>`
     },
     {
         id: '9',
-        poster: './images/9.jpg',
+        poster: './9.jpg',
         songInfo: `<h4>Dilber</h4>
         <span>Satyameva Jayate</span>`
     },
     {
         id: '10',
-        poster: './images/10.jpg',
+        poster: './10.jpg',
         songInfo: `<h4>Duniya</h4>
         <span>Luka Chuppi</span>`
     },
     {
         id: '11',
-        poster: './images/11.jpg',
+        poster: './11.jpg',
         songInfo: `<h4>Lagdi Lahore Di</h4>
         <span>Street Dancer 3D</span>`
     },
     {
         id: '12',
-        poster: './images/12.jpg',
+        poster: './12.jpg',
         songInfo: `<h4>Putt Jatt Da</h4>
         <span>Putt Jatt Da</span>`
     },
     {
         id: '13',
-        poster: './images/13.jpg',
+        poster: './13.jpg',
         songInfo: `<h4>Baarishein</h4>
         <span>Atif Aslam</span>`
     },
     {
         id: '14',
-        poster: './images/14.jpg',
+        poster: './14.jpg',
         songInfo: `<h4>Vaaste</h4>
         <span>Dhvani Bhanushali</span>`
     },
     {
         id: '15',
-        poster: './images/15.jpg',
+        poster: './15.jpg',
         songInfo: `<h4>Lut Gaye</h4>
         <span>Jubin Nautiyal</span>`
     },
@@ -135,7 +135,7 @@ playIcons.forEach(element=>{
         index = e.target.id;
         makeAllPlay()
         e.target.classList.replace('fa-circle-play', 'fa-circle-pause')
-        music.src = `./audio/${index}.mp3`
+        music.src = `./${index}.mp3`
         posterPlayingSong.src = `./images/${index}.jpg`
         music.play()
         let song_title = songs.filter((ele)=>{
