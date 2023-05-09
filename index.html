@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musicy</title>
+    <!-- Icons Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="menu-side">
+                <span class="title">Musicy</span>
+                <ul class="lists">
+                    <li class="active"><span></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/></svg>Playlist</li>
+                    <li><span></span>Last Listening</li>
+                    <li><span></span>Recommended</li>
+                </ul>
+                <div class="songs-parent">
+                    <div class="song-item menu">
+                        <span class="num">01</span>
+                        <img src="./images/1.jpg">
+                        <div class="song-info">
+                            <h4>On My Way</h4>
+                            <span>Alan Walker</span>
+                        </div>
+                        <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="1"></i></span>
+                    </div>
+                    <div class="song-item menu">
+                        <span class="num">02</span>
+                        <img src="./images/2.jpg">
+                        <div class="song-info">
+                            <h4>Alan Walker-Fade</h4>
+                            <span>Alan Walker</span>
+                        </div>
+                        <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="2"></i></span>
+                    </div>
+                    <div class="song-item menu">
+                        <span class="num">03</span>
+                        <img src="./images/1.jpg">
+                        <div class="song-info">
+                            <h4>Cartoon - On & On</h4>
+                            <span>Daniel Levi</span>
+                        </div>
+                        <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="3"></i></span>
+                    </div>
+                    <div class="song-item menu">
+                        <span class="num">04</span>
+                        <img src="./images/4.jpg">
+                        <div class="song-info">
+                            <h4>Warriyo - Mortals</h4>
+                            <span>Mortals</span>
+                        </div>
+                        <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="4"></i></span>
+                    </div>
+                    <div class="song-item menu">
+                        <span class="num">05</span>
+                        <img src="./images/5.jpg">
+                        <div class="song-info">
+                            <h4>Ertugrul Gazi</h4>
+                            <span>Ertugrul</span>
+                        </div>
+                        <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="5"></i></span>
+                    </div>
+                    <div class="song-item menu">
+                        <span class="num">06</span>
+                        <img src="./images/6.jpg">
+                        <div class="song-info">
+                            <h4>Electronic Music</h4>
+                            <span>Electro</span>
+                        </div>
+                        <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="6"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="songs-side">
+                <div class="banner">
+                    <nav>
+                        <ul class="links">
+                            <li class="active"><a href="#">Discover</a></li>
+                            <li><a href="#">MY LIBRARY</a></li>
+                            <li><a href="#">RADIO</a></li>
+                        </ul>
+                        <div class="search-input">
+                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                            <input type="text" placeholder="Search Music">
+                        </div>
+                        <div class="avatar">
+                            <img src="./images/KDS CODER.png" alt="avatar" title="KDS CODER">
+                        </div>
+                    </nav>
+                    <div class="singer-data">
+                        <div class="singer-info">
+                            <h2 class="singer-name">Alen Walker-Fade</h2>
+                            <span class="singer-desc">You were the shadow to my light Did you feel us Another start You fade<br>
+                                Away afraid our aim is out of sight Wanna see us Alive</span>
+                            <div class="singer-btns">
+                                <a href="#" class="play">PLAY</a>
+                                <a href="#" class="follow">FOLLOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular-songs">
+                    <div class="songs-title">
+                        <span class="title">Popular Songs</span>
+                        <div class="icons">
+                            <span id="left-scrolls" class="backward"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            <span id="right-scrolls" class="forward"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></span>
+                        </div>
+                    </div>
+                    <div class="songs-contain">
+                        <div class="popular-song song-item">
+                            <div class="image">
+                                <img src="./images/7.jpg" alt="">
+                                <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="7"></i></span>
+                            </div>
+                            <div class="popular-song-info">
+                                <h5>Agar Tum Sath Ho</h5>
+                                <span>Tamashaa</span>
+                            </div>
+                        </div>
+                        <div class="popular-song song-item">
+                            <div class="image">
+                                <img src="./images/8.jpg" alt="">
+                                <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="8"></i></span>
+                            </div>
+                            <div class="popular-song-info">
+                                <h5>Suna Hai</h5>
+                                <span>Neha Kakker</span>
+                            </div>
+                        </div>
+                        <div class="popular-song song-item">
+                            <div class="image">
+                                <img src="./images/9.jpg" alt="">
+                                <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="9"></i></span>
+                            </div>
+                            <div class="popular-song-info">
+                                <h5>Dilber</h5>
+                                <span>Satyameva Jayate</span>
+                            </div>
+                        </div>
+                        <div class="popular-song song-item">
+                            <div class="image">
+                                <img src="./images/10.jpg" alt="">
+                                <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="10"></i></span>
+                            </div>
+                            <div class="popular-song-info">
+                                <h5>Duniya</h5>
+                                <span>Luka Chuppi</span>
+                            </div>
+                        </div>
+                        <div class="popular-song song-item">
+                            <div class="image">
+                                <img src="./images/11.jpg" alt="">
+                                <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="11"></i></span>
+                            </div>
+                            <div class="popular-song-info">
+                                <h5>Lagdi Lahore Di</h5>
+                                <span>Street Dancer 3D</span>
+                            </div>
+                        </div>
+                        <div class="popular-song song-item">
+                            <div class="image">
+                                <img src="./images/12.jpg" alt="">
+                                <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="12"></i></span>
+                            </div>
+                            <div class="popular-song-info">
+                                <h5>Putt Jatt Da</h5>
+                                <span>Putt Jatt Da</span>
+                            </div>
+                        </div>
+                        <div class="popular-song song-item">
+                            <div class="image">
+                                <img src="./images/13.jpg" alt="">
+                                <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="13"></i></span>
+                            </div>
+                            <div class="popular-song-info">
+                                <h5>Baarishein</h5>
+                                <span>Atif Aslam</span>
+                            </div>
+                        </div>
+                        <div class="popular-song song-item">
+                            <div class="image">
+                                <img src="./images/14.jpg" alt="">
+                                <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="14"></i></span>
+                            </div>
+                            <div class="popular-song-info">
+                                <h5>Dhvani Bhanushali</h5>
+                                <span>Vaaste</span>
+                            </div>
+                        </div>
+                        <div class="popular-song song-item">
+                            <div class="image">
+                                <img src="./images/15.jpg" alt="">
+                                <span class="icon"><i class="fa-sharp play-menu-song fa-solid fa-circle-play" id="15"></i></span>
+                            </div>
+                            <div class="popular-song-info">
+                                <h5>Lut Gaye</h5>
+                                <span>Jubin Nautiyal</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular-artist">
+                    <div class="artists-title">
+                        <span class="title">Popular Artists</span>
+                        <div class="icons">
+                            <span id="left-scroll" class="backward"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            <span id="right-scroll" class="forward"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></span>
+                        </div>
+                    </div>
+                    <div class="artists-contain">
+                        <div class="image"><img src="./images/akhil.jpg" alt="" title="Akhil"></div>
+                        <div class="image"><img src="./images/alan.jpg" alt="" title="Alan"></div>
+                        <div class="image"><img src="./images/arjit.jpg" alt="" title="Aragit"></div>
+                        <div class="image"><img src="./images/atif.jpg" alt="" title="Atif"></div>
+                        <div class="image"><img src="./images/dhvani.jpg" alt="" title="Dhavani"></div>
+                        <div class="image"><img src="./images/Diljit_Dosanjh.jpg" alt="" title="Diljit_Dosanjh"></div>
+                        <div class="image"><img src="./images/guru.jpg" alt="" title="Guru"></div>
+                        <div class="image"><img src="./images/honey.jpg" alt="" title="Honey"></div>
+                        <div class="image"><img src="./images/jubin Nautiyal.jpg" alt="" title="Jubin"></div>
+                        <div class="image"><img src="./images/justin-bieber-lede.jpg" alt="" title="justin Bieber"></div>
+                        <div class="image"><img src="./images/neha.jpg" alt="" title="Neha"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="play-line">
+            <div class="left-side">
+                <div class="wave">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <img id="poster-playing-song" src="./images/26th.jpg" alt="">
+                <div class="playing-song-info" id="playing-song-info">
+                    <h4>Electronic Music</h4>
+                    <span>Electro</span>
+                </div>
+            </div>
+            <div class="center-side">
+                <div class="icons">
+                    <span class="backward-audio"><i class="fas fa-backward"></i></span>
+                    <span class="play-mastery"><i class="fas fa-play"></i></span>
+                    <span class="forward-audio"><i class="fas fa-forward"></i></span>
+                </div>
+                <div class="autio-timeline">
+                    <span class="current-time">0:00</span>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-line"></div>
+                        </div>
+                    </div>
+                    <span class="audio-duration">0:00</span>
+                </div>
+            </div>
+            <div class="right-side">
+                <span class="icon volume-icon"><i class="fa-sharp fa-solid fa-volume-high"></i></span>
+                <div class="volume-container">
+                    <div class="volume-bar">
+                        <div class="volume-line"></div>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </header>
+</body>
+</html>
