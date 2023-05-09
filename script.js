@@ -44,7 +44,7 @@ const songs = [
     },
     {
         id: '7',
-        poster: './7.jpg',
+        poster: './7.webp',
         songInfo: `<h4>Agar Tum Sath Ho</h4>
         <span>Tamashaa</span>`
     },
