@@ -136,7 +136,7 @@ playIcons.forEach(element=>{
         makeAllPlay()
         e.target.classList.replace('fa-circle-play', 'fa-circle-pause')
         music.src = `./${index}.mp3`
-        posterPlayingSong.src = `./images/${index}.jpg`
+        posterPlayingSong.src = `./${index}.jpg`
         music.play()
         let song_title = songs.filter((ele)=>{
             return ele.id == index
